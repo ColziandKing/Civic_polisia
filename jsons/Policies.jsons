@@ -1,9 +1,6 @@
-// https://civilization.fandom.com/wiki/List_of_civics_in_Civ4
-// TODO: Fix Upkeep https://www.civfanatics.com/civ4/strategy/game-mechanics/civic-upkeep-explained/
-
 [
     {
-        "name": "Government",
+        "name": "Chiefdom",
         "era": "Ancient era",
 		"uniques": [
 			"Adopt [Despotism] <hidden from users>"
@@ -35,6 +32,27 @@
 				],
 				"row": 1,
                 "column": 1
+            },
+{
+                "name": "Barbarism",
+                "uniques": [
+					"Comment [Low Upkeep]",
+					"[-1 Gold] per [6] population [in your cities]",
+					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
+
+					"Unavailable <after adopting [Vassalage]> <hidden from users>",
+					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
+					"Unavailable <after adopting [Nationhood]> <hidden from users>",
+					"Unavailable <after adopting [Free Speech]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
+                "column": 3
             },
             {
                 "name": "Hereditary Rule",
@@ -153,33 +171,13 @@
         ]
     },
     {
-        "name": "Legal",
+        "name": "Civics",
         "era": "Ancient era",
 		"uniques": [
 			"Adopt [Barbarism] <hidden from users>"
 		],
         "policies": [
-            {
-                "name": "Barbarism",
-                "uniques": [
-					"Comment [Low Upkeep]",
-					"[-1 Gold] per [6] population [in your cities]",
-					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
-
-					"Unavailable <after adopting [Vassalage]> <hidden from users>",
-					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
-					"Unavailable <after adopting [Nationhood]> <hidden from users>",
-					"Unavailable <after adopting [Free Speech]> <hidden from users>"
-				],
-				"civilopediaText": [
-					{
-						"text": "Trigger Revolution to select a new Civic",
-						"link": "Wonders/Revolution"
-					}
-				],
-				"row": 1,
-                "column": 1
-            },
+            
             {
                 "name": "Vassalage",
                 "uniques": [
