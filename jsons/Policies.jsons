@@ -38,7 +38,7 @@
 					}
 				],
 				"row": 1,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Religion",
@@ -67,7 +67,7 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 1,
+				"row": 2,
                 "column": 1
             },
 {
@@ -82,7 +82,7 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 1,
+				"row": 2,
                 "column": 3
             },
             {
@@ -97,7 +97,7 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 1,
+				"row": 2,
                 "column": 5
             },
             {
@@ -112,7 +112,7 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 2,
+				"row": 3,
                 "column": 1
             },
 {
@@ -127,7 +127,7 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 2,
+				"row": 3,
                 "column": 3
             },
             {
@@ -146,7 +146,7 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 2,
+				"row": 3,
                 "column": 5
             },
 			{
@@ -168,7 +168,8 @@
             {
                 "name": "Vassalage",
                 "uniques": [
-					"Comment [High Upkeep]",
+					"Comment [High Upkeep]","[1] free [Sea Beggar] units appear","[1] units cost no maintenance",
+					"May buy [Sea Beggar] units with [Gold] for [3] times their normal Production cost",
 					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+10]% weight to this choice for AI decisions",
@@ -183,13 +184,12 @@
 					}
 				],
 				"row": 1,
-                "column": 3
+                "column": 1
             },
             {
                 "name": "Bureaucracy",
                 "uniques": [
 					"Comment [High Upkeep]",
-					"[-1 Gold] per [2] population [in your cities]",
 					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+20]% weight to this choice for AI decisions",
@@ -197,12 +197,6 @@
 
 					"[+50]% [Gold] [in capital]",
 					"[+50]% [Production] [in capital]",
-                    "Only available <after discovering [Civil Service]>",
-
-					"Unavailable <after adopting [Barbarism]> <hidden from users>",
-					"Unavailable <after adopting [Vassalage]> <hidden from users>",
-					"Unavailable <after adopting [Nationhood]> <hidden from users>",
-					"Unavailable <after adopting [Free Speech]> <hidden from users>"
 				],
 				"civilopediaText": [
 					{
@@ -211,7 +205,7 @@
 					}
 				],
 				"row": 1,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Mercenary Navy",
@@ -222,13 +216,6 @@
 					"[+60]% weight to this choice for AI decisions <when at war>",
 
 					"[+2 Happiness] from every [Barracks]",
-					// TODO: +25% Espionage in all cities
-                    "Only available <after discovering [Nationalism]>",
-
-					"Unavailable <after adopting [Barbarism]> <hidden from users>",
-					"Unavailable <after adopting [Vassalage]> <hidden from users>",
-					"Unavailable <after adopting [Bureaucracy]> <hidden from users>",
-					"Unavailable <after adopting [Free Speech]> <hidden from users>"
                 ],
 				"civilopediaText": [
 					{
@@ -236,19 +223,16 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 2,
-                "column": 2
+				"row": 1,
+                "column": 5
             },
             {
                 "name": "Emancipation",
                 "uniques": [
 					"Comment [Low Upkeep]",
-					"[-1 Gold] per [6] population [in your cities]",
 					"[+1 Gold] per [12] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+80]% weight to this choice for AI decisions",
-
-					// TODO: Unhappiness in civilizations without emancipation
 					"[+1 Happiness] [in your cities]",
 					"[-1 Happiness] [in enemy cities]",
 
@@ -257,16 +241,9 @@
 					"[-50]% construction time for [Hamlet] improvements",
 					"[-50]% construction time for [Village] improvements",
 					"[-50]% construction time for [Town] improvements",
-
-                    "Only available <after discovering [Democracy]>",
-
-					"Unavailable <after adopting [Tribalism]> <hidden from users>",
-					"Unavailable <after adopting [Slavery]> <hidden from users>",
-					"Unavailable <after adopting [Serfdom]> <hidden from users>",
-					"Unavailable <after adopting [Caste System]> <hidden from users>"
 ],
-           "row": 1,
-           "column": 2
+           "row": 2,
+           "column": 1
 },
             {
                 "name": "Pacifism",
@@ -277,14 +254,7 @@
 					"[+50]% weight to this choice for AI decisions <when not at war>",
 
 					"[+100]% Great Person generation [in cities following our religion]",
-					"[-1] Unit Supply per [3] population [in your cities]", // +1 Coins support cost per military unit
-
-					"Unavailable <before discovering [Philosophy]> <if [Shwedagon Paya] is not constructed>",
-
-					"Unavailable <after adopting [Paganism]> <hidden from users>",
-					"Unavailable <after adopting [Organized Religion]> <hidden from users>",
-					"Unavailable <after adopting [Theocracy]> <hidden from users>",
-					"Unavailable <after adopting [Free Religion]> <hidden from users>"
+					"[-1] Unit Supply per [3] population [in your cities]",
                 ],
 				"civilopediaText": [
 					{
@@ -293,31 +263,21 @@
 					}
 				],
 				"row": 2,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Environmentalism",
                 "uniques": [
 					"Comment [Medium Upkeep]",
-					"[-1 Gold] per [4] population [in your cities]",
 					"[+1 Gold] per [8] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+80]% weight to this choice for AI decisions",
 
-					"Provides [6] [Health]",// in your cities
-					// Public Transportation gives +2 Health
 					"[+1 Happiness] from [Forest] tiles [in your cities]",
 					"[+1 Happiness] from [Jungle] tiles [in your cities]",
 					"[+2 Gold] from [Windmill] tiles [in your cities]",
 					"[+2 Gold] from [Forest Preserve] tiles [in your cities]",
-					// +25% maintenance costs from corporations (BTS)
-                    "Only available <after discovering [Medicine]>",
-
-					"Unavailable <after adopting [Decentralization]> <hidden from users>",
-					"Unavailable <after adopting [Mercantilism]> <hidden from users>",
-					"Unavailable <after adopting [Free Market]> <hidden from users>",
-					"Unavailable <after adopting [State Property]> <hidden from users>"
-                ],
+			],
 				"civilopediaText": [
 					{
 						"text": "Trigger Revolution to select a new Civic",
@@ -325,7 +285,7 @@
 					}
 				],
 				"row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Legal",
@@ -338,8 +298,8 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 1,
-                "column": 1
+				"row": 3,
+                "column": 2
             },
             {
                 "name": "Economy",
@@ -352,8 +312,8 @@
 						"link": "Wonders/Revolution"
 					}
 				],
-				"row": 1,
-                "column": 1
+				"row": 3,
+                "column": 4
             },
 			{
 				"name": "Civics Complete",
