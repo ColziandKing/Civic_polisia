@@ -277,7 +277,7 @@ PolicyIcons/Government
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Hereditary Rule
+PolicyIcons/Chiefdom 
   rotate: false
   xy: 1668, 1602
   size: 200, 200
@@ -773,7 +773,7 @@ PolicyIcons/Slavery
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/State Property
+PolicyIcons/Civics
   rotate: false
   xy: 836, 212
   size: 200, 200
