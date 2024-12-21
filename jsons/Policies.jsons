@@ -3,8 +3,7 @@
         "name": "Chiefdom",
         "era": "Modern era",
 		"uniques": [
-			"Adopt [Despotism] <hidden from users>","Adopt [Barbarism] <hidden from users>","Adopt [Tribalism] <hidden from users>","Adopt [Paganism] <hidden from users>","Adopt [Decentralization] <hidden from users>","Adopt [Slavery] <hidden from users>",
-		],
+					],
 		"civilopediaText": [
 			{
 				"text": "All Government civics enabled by The Pyramids",
@@ -12,6 +11,50 @@
 			}
 		],
         "policies": [
+            {
+                "name": "Government",
+                "uniques": [
+					"Adopt [Despotism] <hidden from users>",
+],
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
+                "column": 1
+            },
+            {
+                "name": "Labor",
+                "uniques": [
+				"Adopt [Tribalism] <hidden from users>",
+	
+],
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
+                "column": 1
+            },
+            {
+                "name": "Religion",
+                "uniques": [
+		"Adopt [Paganism] <hidden from users>",
+			
+],
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
+                "column": 5
+            },
             {
                 "name": "Despotism",
                 "uniques": [
@@ -283,6 +326,34 @@
 				],
 				"row": 2,
                 "column": 4
+            },
+            {
+                "name": "Legal",
+                "uniques": [
+					"Adopt [Barbarism] <hidden from users>",
+],
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
+                "column": 1
+            },
+            {
+                "name": "Economy",
+                "uniques": [
+				"Adopt [Decentralization] <hidden from users>",
+],
+				"civilopediaText": [
+					{
+						"text": "Trigger Revolution to select a new Civic",
+						"link": "Wonders/Revolution"
+					}
+				],
+				"row": 1,
+                "column": 1
             },
 			{
 				"name": "Civics Complete",
