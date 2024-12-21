@@ -168,8 +168,7 @@
             {
                 "name": "Vassalage",
                 "uniques": [
-					"Comment [High Upkeep]","[1] free [Sea Beggar] units appear","[1] units cost no maintenance",
-					"May buy [Sea Beggar] units with [Gold] for [3] times their normal Production cost",
+					"Comment [High Upkeep]",
 					"[+1 Gold] per [4] population [in your cities] <for [Organized] Civilizations>",
 
 					"[+10]% weight to this choice for AI decisions",
@@ -210,8 +209,8 @@
             {
                 "name": "Mercenary Navy",
                 "uniques": [
-					"Comment [No Upkeep]",
-
+					"Comment [No Upkeep]","[1] free [Sea Beggar] units appear","[1] units cost no maintenance",
+					"May buy [Sea Beggar] units with [Gold] for [2] times their normal Production cost",
 					"[+20]% weight to this choice for AI decisions",
 					"[+60]% weight to this choice for AI decisions <when at war>",
 
