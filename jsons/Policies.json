@@ -257,7 +257,7 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]","Adopt [Pacifism] <hidden from users>",
             "[+1 Culture, +1 Faith] [in capital]", "Free Social Policy","Adopt [Organized Religion]", 
-            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>"
+            "Comment [Unlocks [Hagia Sophia]]","Remove [Paganism] <hidden from users>"
         ],
         "policies": [
             {
@@ -320,7 +320,7 @@
         "era": "Classical era",
         "uniques": ["Free Social Policy","Adopt [Philanthropy]","Adopt [Vassalage] <hidden from users>",
             "Resting point for Influence with City-States is increased by [20]",
-            "Comment [Unlocks [Forbidden Palace]]","Provides [1] [Policies]","Remove [Decentralization] <hidden from users>"
+            "Comment [Unlocks [Forbidden Palace]]","Remove [Decentralization] <hidden from users>"
         ],
         "policies": [
             {
@@ -394,7 +394,7 @@
         "name": "Commerce",
         "uniques": [
             "[Great Merchant] is earned [33]% faster", "Free Social Policy","Adopt [Silk Road]",
-            "Comment [Unlocks [Big Ben]]","Provides [1] [Policies]","Adopt [Environmentalism] <hidden from users>"
+            "Comment [Unlocks [Big Ben]]","Adopt [Environmentalism] <hidden from users>"
         ],
         "era": "Medieval era",
         "policies": [
@@ -421,8 +421,8 @@
                 "uniques": [
 			"[+50]% Production when constructing [Market] buildings [in all cities]",
                     "[+50]% Production when constructing [Bank] buildings [in all cities]",
-                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]",
-			"Provides [3] [Nutmeg]","Provides [3] [Cloves]","Provides [3] [Pepper]"
+                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]"
+			
                 ],
                 "requires": ["Silk Road"],
                 "row": 2,
@@ -432,8 +432,8 @@
                 "name": "Entrepreneurship",
                 "uniques": [
                     "[-25]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for buildings [in all cities]",
-                    "Provides [2] [Trade Route]"
+                    "[-25]% maintenance cost for buildings [in all cities]"
+                    
                 ],
                 "requires": ["Economic Union"],
                 "row": 3,
@@ -466,10 +466,9 @@
         "uniques": [ 
 		"Free Social Policy","Adopt [Maritime Infrastructure]",
             "[+1] Movement <for [{Military} {Water}] units>",
-            "[+1] Sight <for [{Military} {Water}] units>","Adopt [Mercenary Navy] <hidden from users>",
-		"Free [Quinquereme] appears","Free [Quinquereme] appears",
+            "[+1] Sight <for [{Military} {Water}] units>",
             "Free [Quinquereme] appears","Comment [Unlocks [The Louvre]]",
-            "Comment [Unlocks [Conquistador]]","Provides [1] [Policies]"
+            "Comment [Unlocks [Conquistador]]"]"
         ],
         "era": "Medieval era",
         "policies": [
@@ -499,7 +498,6 @@
                 "uniques": [
                     //"[+1] population [in all cities]",
                     "[+1 Happiness] [in all cities]",
-                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>",
 			"Free [Conquistador] appears"
                 ],
@@ -520,7 +518,6 @@
                 "name": "Resettlements",
                 "uniques": [
                     "[+3] population [in this city] <upon founding a city>",
-                    "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Gain a free [Monument] [in this city] <upon founding a city>",
                     "Gain a free [Granary] [in this city] <upon founding a city>",
                     "Gain a free [Library] [in this city] <upon founding a city>",
