@@ -5,7 +5,6 @@
         "uniques": [
 		"Comment [Allows Ideology Change]",
             "Can be purchased with [Gold] [in all cities]",
-            "Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>",
 					"Remove [Socialist Realism] <hidden from users>",
 					"Remove [Patriotic War] <hidden from users>",
 					"Remove [Capitalism] <hidden from users>",
