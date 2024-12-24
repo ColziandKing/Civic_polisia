@@ -1,0 +1,20 @@
+[
+    {
+        "name": "City center",
+        "terrainsCanBeBuiltOn": ["Land"],
+      "turnsToBuild": 20,
+        "uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Gold]",
+			// TODO: Provides +2 Health when on Fresh Water
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Excluded from map editor"
+		],
+		// "shortcutKey": "B", // The default in Unciv is C, so we will leave it as is.
+        "civilopediaText": [
+            {"text":"Marks the center of a city"},
+            {"text":"Appearance changes with the technological era of the owning civilization"}
+        ]
+    },
+]
