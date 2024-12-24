@@ -3,7 +3,7 @@
         "name": "Tradition",
         "era": "Ancient era",
         "uniques": [
-            "[+3 Culture] from every [Palace]", "Free Social Policy","Remove [Despotism] <hidden from users>",
+            "[+3 Culture] from every [Palace]","Remove [Despotism] <hidden from users>",
             "[-25]% Culture cost of natural border growth [in all cities]","Adopt [Aristocracy]", 
             "Comment [Unlocks [Hanging Gardens]]","Adopt [Bureaucracy] <hidden from users>",
         ],
@@ -79,7 +79,7 @@
         "era": "Ancient era",
         "uniques": [
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>","[+1 Culture] [in all cities]", 
-		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [Pyramids]]","Remove [Barbarism] <hidden from users>"
+		"Adopt [Free Speech]", "Comment [Unlocks [Pyramids]]","Remove [Barbarism] <hidden from users>"
         ],
         "policies": [
             {
@@ -108,15 +108,6 @@
 		],
                 "row": 1,
                 "column": 5
-            },
-		{
-                "name": "Hero of the People",
-                "uniques": [
-                    "[+20]% Great Person generation [in all cities]"
-                ],
-		"requires": ["Citizenship"],
-                "row": 2,
-                "column": 3
             },
             {
                 "name": "Meritocracy",
@@ -162,7 +153,7 @@
         "name": "Honor",
         "era": "Ancient era",
         "uniques": [
-			"Units in cities cost no Maintenance","Free Social Policy",
+			"Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>","Adopt [Military Tradition]",
 		"[+15]% Production when constructing [Melee] units [in all cities]",
             "Comment [Unlocks [Statue of Zeus]]","Remove [Tribalism] <hidden from users>"
@@ -238,7 +229,7 @@
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]","Adopt [Pacifism] <hidden from users>",
-            "[+1 Culture, +1 Faith] [in capital]", "Free Social Policy","Adopt [Organized Religion]", 
+            "[+1 Culture, +1 Faith] [in capital]", "Adopt [Organized Religion]", 
             "Comment [Unlocks [Hagia Sophia]]","Remove [Paganism] <hidden from users>"
         ],
         "policies": [
@@ -277,7 +268,7 @@
     {
         "name": "Patronage",
         "era": "Classical era",
-        "uniques": ["Free Social Policy","Adopt [Philantropy]","Adopt [Vassalage] <hidden from users>",
+        "uniques": ["Adopt [Philantropy]","Adopt [Vassalage] <hidden from users>",
             "Resting point for Influence with City-States is increased by [20]",
             "Comment [Unlocks [Forbidden Palace]]","Remove [Decentralization] <hidden from users>"
         ],
@@ -411,7 +402,7 @@
         "name": "Rationalism",
         "era": "Renaissance era",
         "uniques": [ 
-		"Free Social Policy","Adopt [Free Thought]",
+		"Adopt [Free Thought]",
             "[Great Scientist] is earned [20]% faster",
             "Comment [Unlocks [Porcelain Tower]]"
         ],
