@@ -2,14 +2,11 @@
     {
         "name": "City center",
         "terrainsCanBeBuiltOn": ["Land"],
-      "turnsToBuild": 20,
+	    "techRequired": "Pottery",
+	    "turnsToBuild": 20,
         "uniques": [
 			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Gold]",
-			// TODO: Provides +2 Health when on Fresh Water
-			"Unpillagable",
-			"Irremovable",
-			"Unbuildable",
-			"Excluded from map editor"
+		// TODO: Provides +2 Health when on Fresh Water
 		],
 		// "shortcutKey": "B", // The default in Unciv is C, so we will leave it as is.
         "civilopediaText": [
@@ -17,4 +14,10 @@
             {"text":"Appearance changes with the technological era of the owning civilization"}
         ]
     },
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
 ]
