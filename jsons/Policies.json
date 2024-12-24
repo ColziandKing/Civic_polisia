@@ -45,26 +45,6 @@
                 "row": 2,
                 "column": 5
             },
-		{
-                "name": "Feasts & Festivals",
-                "uniques": [
-			"[+25]% Golden Age length","[+10]% [Culture] [in capital] <while the empire is happy>",
-                    "Empire enters golden age","[+2 Food] [in all cities]"
-                ],
-		"requires": ["Aristocracy"],
-                "row": 2,
-                "column": 2
-            },
-		{
-                "name": "Conservation",
-                "uniques": [
-			"[+2 Culture] from every [Forest]","[+2 Culture] from every [Jungle]",
-			"[-15]% maintenance cost for buildings [in all cities]"
-                ],
-		"requires": ["Feasts & Festivals"],
-                "row": 3,
-                "column": 1
-            },
             {
                 "name": "Landed Elite",
                 "uniques": [
@@ -99,7 +79,7 @@
         "era": "Ancient era",
         "uniques": [
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>","[+1 Culture] [in all cities]", 
-		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [Pyramids]]","Provides [1] [Policies]","Remove [Barbarism] <hidden from users>"
+		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [Pyramids]]","Remove [Barbarism] <hidden from users>"
         ],
         "policies": [
             {
