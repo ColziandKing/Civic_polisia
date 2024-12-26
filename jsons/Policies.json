@@ -76,7 +76,7 @@
                 "column": 7
             },
             {
-                "name": "Liberty Complete",
+                "name": "Civics Complete",
                 "uniques": [
                     "Free Great Person",
                     "[+33]% Production when constructing [National Epic] wonders [in all cities]",
@@ -100,6 +100,87 @@
                     "[+15]% Production when constructing [University] buildings [in all cities]",
                     "[+15]% Production when constructing [Opera House] buildings [in all cities]",
                     "[+15]% Production when constructing [Constabulary] buildings [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rationalism",
+        "era": "Renaissance era",
+        "uniques": [ 
+		"Free Social Policy","Adopt [Free Thought]",
+            "[Great Scientist] is earned [20]% faster",
+            "Comment [Unlocks [Porcelain Tower]]","Provides [1] [Policies]"
+        ],
+        "policies": [
+		{
+                "name": "Sovereignty",
+                "uniques": [
+                    "[+1 Gold] from every [Library]",
+                    "[+1 Gold] from every [University]",
+                    "[+1 Gold] from every [Observatory]",
+                    "[+1 Gold] from every [Research Lab]",
+                    "[+1 Gold] from every [Public School]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Free Thought",
+                "uniques": [
+                    "[+1 Science] from every [Trading post]",
+                    "[+1 Science] from every [Chateau]",
+                    "[+1 Science] from every [Caer]",
+                    "[+1 Science] from every [Brazilwood Camp]",
+                    "[+4 Science] from every [Customs house]",
+                    "[+4 Science] from every [Academy]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Humanism",
+                "uniques": [
+                    "[+50]% Production when constructing [Library] buildings [in all cities]",
+                    "[+50]% Production when constructing [University] buildings [in all cities]",
+                    "[+50]% Production when constructing [Observatory] buildings [in all cities]",
+                    "[+50]% Production when constructing [Public School] buildings [in all cities]",
+                    "[+50]% Production when constructing [Research Lab] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Scientific Revolution",
+                "uniques": [
+                    "Free [Great Scientist] appears"
+                ],
+                "requires": ["Free Thought","Sovereignty"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Secularism",
+                "uniques": [
+                    "[+2 Science] from every specialist [in all cities]"
+                ],
+		    "requires": ["Humanity"],
+                "row": 2,
+                "column": 5
+            },
+		{
+				"name": "Christianity",
+				"uniques": ["[+2 Production, +2 Food, +2 Gold, +2 Faith, +2 Culture, +2 Science, +2 Happiness] per [5] population [in all cities]","Empire enters golden age",
+					"[Faith] cost of purchasing [Missionary] units [-80]%","[2] free [Missionary] units appear","Provides [1] [Policies]"],
+				"requires": ["Sovereignty","Secularity"],
+				"row": 3,
+				"column": 3
+			},
+
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "[10]% [Science] <while the empire is happy>"
                 ]
             }
         ]
