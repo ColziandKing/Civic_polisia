@@ -46,7 +46,7 @@
                 "column": 5
             },
 		{
-                "name": "aFeasts & Festivals",
+                "name": "Socialism",
                 "uniques": [
 			"[+25]% Golden Age length","[+10]% [Culture] [in capital] <while the empire is happy>",
                     "Empire enters golden age","[+2 Food] [in all cities]"
@@ -76,11 +76,11 @@
                 "column": 4
             },
             {
-                "name": "aMonarchy",
+                "name": "Free Religion",
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]","Provides [1] [Policies]"
                 ],
-                "requires": ["aLegalism"],
+                "requires": ["Socialism"],
                 "row": 3,
                 "column": 6
             },
@@ -121,7 +121,7 @@
                 "column": 2
             },
 		{
-                "name": "Socialism",
+                "name": "Vassalage",
                 "uniques": [
                     "[+1 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
@@ -150,13 +150,13 @@
                 "column": 3
             },
             {
-                "name": "Free Religion",
+                "name": "Merchant Confederacy",
                 "uniques": [
                     "[+15]% [Gold] [in all cities connected to capital]",
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Socialism"],
+                "requires": ["Vassalage"],
                 "row": 3,
                 "column": 5
             },
