@@ -298,7 +298,7 @@ PolicyIcons/Legal1
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Civics
+PolicyBranchIcons/Civics
   rotate: false
   xy: 1460, 770
   size: 200, 200
