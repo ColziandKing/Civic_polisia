@@ -193,49 +193,49 @@ NationIcons/Netherlands
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Barbarism
+PolicyIcons/Barbarism1
   rotate: false
   xy: 420, 1602
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Bureaucracy
+PolicyIcons/Bureaucracy1
   rotate: false
   xy: 628, 1810
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Caste System
+PolicyIcons/Caste System1
   rotate: false
   xy: 420, 1394
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Decentralization
+PolicyIcons/Decentralization1
   rotate: false
   xy: 1044, 1602
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Despotism
+PolicyIcons/Despotism1
   rotate: false
   xy: 4, 354
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Economy
+PolicyIcons/Economy1
   rotate: false
   xy: 628, 978
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Emancipation
+PolicyIcons/Emancipation1
   rotate: false
   xy: 836, 1186
   size: 200, 200
@@ -256,28 +256,28 @@ PolicyIcons/Free Market
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Free Religion
+PolicyIcons/Free Religion1
   rotate: false
   xy: 1460, 1602
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Free Speech
+PolicyIcons/Free Speech1
   rotate: false
   xy: 1668, 1810
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Government
+PolicyIcons/Government1
   rotate: false
   xy: 628, 562
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Hereditary Rule
+PolicyIcons/Hereditary orig1
   rotate: false
   xy: 1668, 1602
   size: 200, 200
@@ -291,14 +291,14 @@ PolicyIcons/Labor
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Legal
+PolicyIcons/Legal1
   rotate: false
   xy: 1044, 562
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Mercantilism
+PolicyIcons/Mercantilism1
   rotate: false
   xy: 1460, 770
   size: 200, 200
@@ -312,7 +312,7 @@ PolicyIcons/Nationhood
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Organized Religion
+PolicyIcons/Organized Religion1
   rotate: false
   xy: 1668, 146
   size: 200, 200
@@ -724,49 +724,49 @@ NationIcons/Zulu
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Pacifism
+PolicyIcons/Pacifism1
   rotate: false
   xy: 4, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Paganism
+PolicyIcons/Paganism1
   rotate: false
   xy: 212, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Police State
+PolicyIcons/Police State1
   rotate: false
   xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Religion
+PolicyIcons/Religion1
   rotate: false
   xy: 628, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Representation
+PolicyIcons/Representation1
   rotate: false
   xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Serfdom
+PolicyIcons/Serfdom1
   rotate: false
   xy: 1044, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Slavery
+PolicyIcons/Slavexy1
   rotate: false
   xy: 628, 4
   size: 200, 200
@@ -780,21 +780,21 @@ PolicyIcons/State Property
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Theocracy
+PolicyIcons/Theocracy1
   rotate: false
   xy: 1044, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Tribalism
+PolicyIcons/Tribalism1
   rotate: false
   xy: 1460, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Universal Suffrage
+PolicyIcons/Universal Suffrage1
   rotate: false
   xy: 1044, 4
   size: 200, 200
