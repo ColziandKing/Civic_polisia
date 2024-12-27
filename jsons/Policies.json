@@ -9,7 +9,7 @@
         ],
         "policies": [
             {
-                "name": "aAristocracy",
+                "name": "State Property",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -18,16 +18,7 @@
                 "column": 2
             },
             {
-                "name": "aOligarchy",
-                "uniques": [
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "aLegalism",
+                "name": "Nationhood",
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [4] cities for free",
                     "[+2 Culture] from every [National Epic]",
@@ -56,7 +47,7 @@
                 "column": 2
             },
 		{
-                "name": "aConservation",
+                "name": "Vassalage",
                 "uniques": [
 			"[+2 Culture] from every [Forest]","[+2 Culture] from every [Jungle]",
 			"[-15]% maintenance cost for buildings [in all cities]","Provides [1] [Policies]"
@@ -66,7 +57,7 @@
                 "column": 1
             },
             {
-                "name": "aLanded Elite",
+                "name": "Labor",
                 "uniques": [
                     "[+15]% growth [in capital]",
                     "[+2 Food] [in capital]","Provides [1] [Policies]"
@@ -121,7 +112,7 @@
                 "column": 2
             },
 		{
-                "name": "Vassalage",
+                "name": "Free Market",
                 "uniques": [
                     "[+1 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
@@ -150,13 +141,13 @@
                 "column": 3
             },
             {
-                "name": "Merchant Confederacy",
+                "name": "Environmentalism",
                 "uniques": [
                     "[+15]% [Gold] [in all cities connected to capital]",
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Vassalage"],
+                "requires": ["Free Market"],
                 "row": 3,
                 "column": 5
             },
