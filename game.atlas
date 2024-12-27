@@ -1,4 +1,17 @@
 
+Policies.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Consulates 
+  rotate: false
+  xy: 1579, 1067
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+
 game.png
 size: 2048, 2048
 format: RGBA8888
