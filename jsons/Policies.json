@@ -15,7 +15,7 @@
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Nationhood",
@@ -41,7 +41,7 @@
 			"[+25]% Golden Age length","[+10]% [Culture] [in capital] <while the empire is happy>",
                     "Empire enters golden age","[+2 Food] [in all cities]"
                 ],
-		"requires": ["State Property", "Nationhood"],
+		"requires": ["State Property","Vassalage","Nationhood"],
                 "row": 2,
                 "column": 2
             },
@@ -51,9 +51,8 @@
 			"[+2 Culture] from every [Forest]","[+2 Culture] from every [Jungle]",
 			"[-15]% maintenance cost for buildings [in all cities]","Provides [1] [Policies]"
                 ],
-		"requires": ["Socialism"],
-                "row": 3,
-                "column": 1
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "Laborism",
