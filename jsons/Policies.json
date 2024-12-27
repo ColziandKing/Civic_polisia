@@ -1,7 +1,7 @@
 [
     {
         "name": "Civics",
-        "era": "Modern era",
+        "era": "Renaissance era",
         "uniques": [
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>","[+1 Culture] [in all cities]", 
 		"Free Social Policy", "Provides [1] [Policies]"
