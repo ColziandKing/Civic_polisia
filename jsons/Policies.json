@@ -1,5 +1,100 @@
 [
     {
+        "name": "World",
+        "era": "Modern era",
+        "uniques": [
+            "[+3 Culture] from every [Palace]", "Free Social Policy","Remove [Despotism] <hidden from users>",
+            "[-25]% Culture cost of natural border growth [in all cities]","Adopt [Aristocracy]", 
+            "Comment [Unlocks [Hanging Gardens]]","Provides [1] [Policies]","Adopt [Bureaucracy] <hidden from users>",
+        ],
+        "policies": [
+            {
+                "name": "aAristocracy",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "aOligarchy",
+                "uniques": [
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "aLegalism",
+                "uniques": [
+                    "Provides the cheapest [Culture] building in your first [4] cities for free",
+                    "[+2 Culture] from every [National Epic]",
+                    "[+2 Culture] from every [National College]",
+                    "[+2 Culture] from every [Circus Maximus]",
+                    "[+2 Culture] from every [Heroic Epic]",
+                    "[+2 Culture] from every [East India Company]",
+                    "[+2 Culture] from every [Grand Temple]",
+                    "[+2 Culture] from every [Ironworks]",
+                    "[+2 Culture] from every [Oxford University]",
+                    "[+2 Culture] from every [Hermitage]",
+                    "[+2 Culture] from every [National Intelligence Agency]"
+                ],
+		"requires": ["aOligarchy"],
+                "row": 2,
+                "column": 5
+            },
+		{
+                "name": "aFeasts & Festivals",
+                "uniques": [
+			"[+25]% Golden Age length","[+10]% [Culture] [in capital] <while the empire is happy>",
+                    "Empire enters golden age","[+2 Food] [in all cities]"
+                ],
+		"requires": ["aAristocracy"],
+                "row": 2,
+                "column": 2
+            },
+		{
+                "name": "aConservation",
+                "uniques": [
+			"[+2 Culture] from every [Forest]","[+2 Culture] from every [Jungle]",
+			"[-15]% maintenance cost for buildings [in all cities]","Provides [1] [Policies]"
+                ],
+		"requires": ["aFeasts & Festivals"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "aLanded Elite",
+                "uniques": [
+                    "[+15]% growth [in capital]",
+                    "[+2 Food] [in capital]","Provides [1] [Policies]"
+                ],
+                "requires": ["Feasts & Festivals","Legalism"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "aMonarchy",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]","Provides [1] [Policies]"
+                ],
+                "requires": ["aLegalism"],
+                "row": 3,
+                "column": 6
+            },
+            {
+                "name": "World Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Aqueduct] in your first [8] cities for free",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Civics",
         "era": "Renaissance era",
         "uniques": [
@@ -33,7 +128,7 @@
                 ],
 		"requires": ["Constitution"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Their Finest Hour",
