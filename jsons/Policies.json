@@ -56,7 +56,7 @@
                 "column": 1
             },
             {
-                "name": "Labor",
+                "name": "Laborism",
                 "uniques": [
                     "[+15]% growth [in capital]",
                     "[+2 Food] [in capital]","Provides [1] [Policies]"
