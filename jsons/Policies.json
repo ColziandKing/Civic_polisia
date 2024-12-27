@@ -32,8 +32,7 @@
                     "[+2 Culture] from every [Hermitage]",
                     "[+2 Culture] from every [National Intelligence Agency]"
                 ],
-		"requires": ["aOligarchy"],
-                "row": 2,
+                "row": 1,
                 "column": 5
             },
 		{
@@ -42,7 +41,7 @@
 			"[+25]% Golden Age length","[+10]% [Culture] [in capital] <while the empire is happy>",
                     "Empire enters golden age","[+2 Food] [in all cities]"
                 ],
-		"requires": ["aAristocracy"],
+		"requires": ["State Property", "Nationhood"],
                 "row": 2,
                 "column": 2
             },
@@ -52,7 +51,7 @@
 			"[+2 Culture] from every [Forest]","[+2 Culture] from every [Jungle]",
 			"[-15]% maintenance cost for buildings [in all cities]","Provides [1] [Policies]"
                 ],
-		"requires": ["aFeasts & Festivals"],
+		"requires": ["Socialism"],
                 "row": 3,
                 "column": 1
             },
@@ -62,9 +61,9 @@
                     "[+15]% growth [in capital]",
                     "[+2 Food] [in capital]","Provides [1] [Policies]"
                 ],
-                "requires": ["Feasts & Festivals","Legalism"],
+                "requires": ["Socialism"],
                 "row": 3,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Free Religion",
@@ -73,7 +72,7 @@
                 ],
                 "requires": ["Socialism"],
                 "row": 3,
-                "column": 6
+                "column": 5
             },
             {
                 "name": "World Complete",
