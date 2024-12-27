@@ -179,6 +179,81 @@
         ]
     },
     {
+        "name": "Patronage",
+        "era": "Classical era",
+        "uniques": ["Free Social Policy","Adopt [Philanthropy]","Adopt [Vassalage] <hidden from users>",
+            "Resting point for Influence with City-States is increased by [20]",
+            "Comment [Unlocks [Forbidden Palace]]","Provides [1] [Policies]","Remove [Decentralization] <hidden from users>"
+        ],
+        "policies": [
+            {
+                "name": "Consulates",
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [30]","City-State territory always counts as friendly territory"
+                ],
+                "row": 1,
+                "column": 1
+            },
+		{
+                "name": "Philantropy",
+                "uniques": [
+                    "Gifts of Gold to City-States generate [25]% more Influence",
+                    "[-25]% City-State Influence degradation"
+                ],
+                "row": 1,
+                "column": 3
+            },
+		{
+                		"name": "United Front",
+                		"uniques": [
+                    		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                			],
+                			"row": 1,
+                			"column": 5
+            		},
+            {
+                "name": "Scholasticism",
+                "uniques": [
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Provides [1] [Policies]"
+                ],
+                "requires": ["Cultural Diplomacy","Consulates"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Cultural Diplomacy",
+                "uniques": [
+                    "[+100]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States"
+                ],
+                "requires": ["Philanthropy"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Educated Elite",
+                "uniques": [
+                    "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+			"Allied City-States will occasionally gift Great People","Provides [1] [Policies]"
+                ],
+                "requires": ["Cultural Diplomacy","United Front"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Patronage Complete",
+                "uniques": [
+                    "[+50]% [Culture] from City-States",
+                    "[+50]% [Faith] from City-States",
+                    "[+50]% [Food] from City-States",
+                    "[+50]% [Happiness] from City-States",
+                    "Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Rationalism",
         "era": "Renaissance era",
         "uniques": [ 
